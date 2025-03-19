@@ -13,8 +13,13 @@ main{
     background-color: tomato;
     width: 200px;
     height: 200px;
+      /* transition: 500ms; */
+    /* transition-property: background-color;
+    transition-duration: 500ms;
+    transition-timing-function: ease-out;
+    transition-delay: 1s; */
+    transition: background-color 500ms ease-out 1s;
   }
-
   
   .item:hover {
     background: slateblue;
