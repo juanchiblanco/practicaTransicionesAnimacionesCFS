@@ -28,3 +28,18 @@ main{
   .textoGrande{transition: font-size 2s ease-out;}
 
   .textoGrande:hover{font-size: 24px;}
+
+  .cajaOpacidad{ 
+    width: 150px;
+    height: 50px;
+    background-color: rgb(0, 165, 165);
+    color: white;
+    opacity: 0.5;
+    transition: opacity 1s;
+  }
+
+  .cajaOpacidad:hover{
+    opacity: 1;
+  }
+
+  
