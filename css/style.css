@@ -42,4 +42,12 @@ main{
     opacity: 1;
   }
 
-  
+  .transicionConRelativo{
+    position: relative;
+    left: 0px;
+    transition: left 2s linear;
+  }
+
+  .transicionConRelativo:hover{
+    left: 25px;
+  }
